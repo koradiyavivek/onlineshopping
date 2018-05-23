@@ -2,17 +2,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.e-commerce</groupId>
-  <artifactId>project1backend</artifactId>
+  <groupId>com.niit</groupId>
+  <artifactId>project1backendd</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>project1backend</name>
+  <name>project1backendd</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.6</maven.compiler.source>
+     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
 
@@ -20,12 +20,11 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
     
-    
- <dependency>
+    <dependency>
   <groupId>org.springframework</groupId>
     <artifactId>spring-orm</artifactId>
     <version>4.3.8.RELEASE</version>

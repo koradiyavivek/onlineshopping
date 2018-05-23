@@ -34,7 +34,7 @@
        <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
        <property name="maxUploadSize" value="10240000"></property>
        </bean>
-       <!-- http://localhost:8080/project1frontend/resources/images/niit.jpg 
+       <!-- http://localhost:8010/project1frontend/resources/images/niit.jpg 
        <img src='<c:url value="/resources/images/niit.jpg">'>
                    /WEB-INF/resources/images/niit.jpg
        -->
