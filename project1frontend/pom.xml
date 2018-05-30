@@ -34,8 +34,8 @@
               </dependency>
     
     <dependency>
-    <groupId>com.niit.e-commerce</groupId>
-    <artifactId>project1backend</artifactId>
+    <groupId>com.niit</groupId>
+    <artifactId>project1backendd</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     </dependency>
     

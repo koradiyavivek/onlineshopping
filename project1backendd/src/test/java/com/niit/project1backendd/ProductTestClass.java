@@ -1,6 +1,8 @@
-package com.niit.e_commerce.eshop;
+package com.niit.project1backendd;
+
 
 import org.junit.BeforeClass;
+
 
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -8,18 +10,11 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import com.niit.dao.ProductDaoImpl;
 import com.niit.model.Category;
 import com.niit.model.Product;
-
 import junit.framework.TestCase;
 
+public class ProductTestClass {
 
-
-
-public class ProductTestClass   {
-//
-//	public ProductTestClass( String testName )
-//    {
-//        super( testName );
-//    }
+	
 	static AnnotationConfigApplicationContext annotationConfigApplicationContext;
 	static ProductDaoImpl productDaoImpl;
 	Product product;
@@ -62,3 +57,4 @@ public class ProductTestClass   {
 	 
 
 }
+
